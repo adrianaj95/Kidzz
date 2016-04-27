@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#088A08"
+    tools:context=".TwoActivity">
+
+
+    <ImageButton android:id="@+id/myButton"
+        android:background=""
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/circle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/textView2"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="ANIMALS"
+        android:textColor="#64FE2E"
+        android:textSize="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="90dp"/>
+
+
+    <ImageButton android:id="@+id/myButton1"
+        android:background=""
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="215dp"
+        android:src="@drawable/circle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/textView3"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="ALPHABET"
+        android:textColor="#64FE2E"
+        android:textSize="50dp"
+        android:layout_marginTop="222dp"
+        android:layout_marginLeft="90dp"/>
+
+
+    <ImageButton android:id="@+id/myButton2"
+        android:background=""
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:layout_marginTop="325dp"
+        android:src="@drawable/circle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/textView4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="NUMBERS"
+        android:textColor="#64FE2E"
+        android:textSize="50dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="90dp"/>
+
+
+
+
+
+
+
+</RelativeLayout>
